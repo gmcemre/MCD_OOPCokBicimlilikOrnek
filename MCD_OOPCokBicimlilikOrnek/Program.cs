@@ -15,6 +15,7 @@ namespace MCD_OOPCokBicimlilikOrnek
             Console.WriteLine("Banka Seçiniz [A/B] : ");
             ConsoleKeyInfo secim;
             secim = Console.ReadKey();
+            
 
             if (secim.Key ==ConsoleKey.A)
             {
